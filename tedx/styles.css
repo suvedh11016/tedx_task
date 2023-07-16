@@ -1,0 +1,135 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+header {
+    background-color: black;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+button {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 30px;
+}
+
+button:hover {
+    background-color: black;
+    color: red;
+}
+
+#profilePage {
+    text-align: center;
+    margin-top: 50px;
+    color: #f2f2f2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#profileContainer {
+    border: 1px solid red;
+    padding: 20px;
+    margin: 20px;
+    display: inline-block;
+    border-radius: 10px;
+    background-color: #696969;
+}
+
+#profileInfo {
+    text-align: left;
+    color: #f2f2f2;
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+h3 {
+    color: #f00;
+    font-size: 20px;
+}
+
+#profilePhoto {
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+}
+
+
+/*#experiences {
+    word-wrap: break-word;
+}*/
+
+
+#eventsPage {
+    text-align: center;
+    margin-top: 50px;
+}
+
+#helpPage {
+    text-align: center;
+    margin-top: 50px;
+    color: whitesmoke;
+  }
+  
+  #helpPage #help:hover {
+    color: red;
+  }
+  
+  
+#middleSection {
+    text-align: center;
+    margin-top: 20px;
+    text-align: left;
+    color: #f2f2f2;
+    font-size: 40px;
+}
+
+footer {
+    background-color: black;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer a {
+    margin: 5px;
+    color: whitesmoke;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+footer a:hover {
+    color: red; 
+}
+
+header img {
+    height: 100px; 
+    width: auto;
+}
+
+.container {
+    border: 1px solid red;
+    padding: 20px;
+    margin: 20px;
+    display: inline-block;
+    border-radius: 10px;
+    background-color: #696969; 
+}
+
+.container h1 {
+    color: red;
+    text-align: center;
+    font-size: 80px;
+}
+
+
